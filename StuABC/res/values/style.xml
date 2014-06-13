@@ -1,0 +1,22 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<resources> 
+<style name="MyProgressBarStyleHorizontal">  
+        <item name="android:indeterminateOnly">false</item>  
+        <item name="android:progressDrawable">@drawable/color_progressbar</item>  
+        <item name="android:minHeight">18dip</item>  
+        <item name="android:maxHeight">18dip</item>  
+        <item name="android:focusable">false</item> 
+    </style> 
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog"> 
+    <item name="android:windowFrame">@null</item> 
+        <item name="android:windowIsFloating">true</item> 
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> 
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item> 
+    </style> 
+       
+    <style name="CustomProgressDialog" parent="@style/CustomDialog"> 
+        <item name="android:windowBackground">@android:color/transparent</item> 
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+</resources>

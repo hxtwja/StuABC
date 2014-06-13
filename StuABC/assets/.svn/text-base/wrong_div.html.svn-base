@@ -1,0 +1,27 @@
+<div class="complex-problem">
+	<div class="items">
+		<button id="{@rid@}" class="radio" onclick="doSelect('{@rid@}')"></button>
+		<div class="cont">
+			<div class="cont-items" id="{@id@}">
+				<div id="{@idc1@}" class="td1">
+					<span class="td-in">{content1}</span>
+				</div>
+				<div id="{@idc2@}" class="td2">
+					<span class="td-in">{content2}</span>
+				</div>
+				<div id="{@idc3@}" class="td3">
+					<span class="td-in">{content3}</span>
+				</div>
+				<div id="{@idc4@}" class="td4">
+					<span class="td-in">{content4}</span>
+				</div>
+				<div id="{@idc5@}" class="td5">
+					<button class="btn-todo btn-todo" style="margin-top: 6px;"
+						onclick="doTest('{@idc5@}')"></button>
+				</div>
+			</div>
+		</div>
+		<!-- style="display: none;" -->
+		<div id="{@sid@}" class="sub-cont">{@fid@}</div>
+	</div>
+</div>

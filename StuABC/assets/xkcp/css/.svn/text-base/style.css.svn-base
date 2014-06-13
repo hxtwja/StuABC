@@ -1,0 +1,87 @@
+/* Reset */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,i,b,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}
+* {-webkit-text-size-adjust:none;}
+.fl{float:left;}
+.fr{float:right;}
+.tc {text-align:center !important;}
+.ti {text-indent:2em;}
+.ti-py {text-indent:4em;}
+.underline {border-bottom:2px solid #626462;}
+.underdot {text-indent:0;background:url(../images/icon_dot.png) no-repeat 50% 100%;display:inline-block;}
+i {font-style:italic;}
+/********/
+body {background:#f2f6d5;padding:0 30px;color:#2e2e2e;font-size:20px;line-height:36px;font-family:STIX, monospace, sans-serif;}
+/* addon */
+h2 {font-size:36px;margin:30px 0;}
+h3 {font-size:30px;color:#1a783a;margin:20px 0;}
+h4 {font-size:24px;color:#ce2250;margin:20px 0;}
+h2 em, h3 em, h4 em {display:block;font-size:18px;color:#666;font-weight:normal;}
+.intro {margin-bottom:30px;}
+/*.section p {overflow:hidden;}*/
+.section p img {vertical-align:middle;}
+.section p span {text-indent:0;}
+.section p .figure {display:block;}
+.section p .en {display:block;font-size:18px;line-height:18px;}
+.section .pic {padding:30px 0;text-align:center;}
+.section .pic span {display:block;margin-top:10px;}
+/* 拼音 */
+.pinyin {display:inline-block;min-width:40px;text-align:center;line-height:20px;text-indent:0;}
+.pinyin i {display:block;font-size:14px;line-height:20px;font-family:arial;font-style:none;}
+.pinyin .underdot {text-indent:0;padding-bottom:10px;}
+/* 切换-隐藏-显示 */
+.toggle-panel .hd {background:url(../images/icon_panel_down.png) no-repeat 100% 50%;color:#89876b;font-weight:bold;}
+.toggle-panel .close {background-image:url(../images/icon_panel_up.png);}
+.toggle-panel .bd {padding:10px 0;display:none;}
+/* 公式 */
+.formula {display:inline-block;}
+.MathDisplay {margin:5px 0 !important;}
+/* 习题 */
+.box {background:#fff;-webkit-border-radius:8px;box-shadow:0 0 10px #ddd;margin-bottom:30px;}
+.box .ai {text-indent:0;position:relative;/*display:inline-block;*/}
+.box .ai i {font-style:normal;border-radius:5px;background:rgba(204,0,0,.6);color:#fff;position:absolute;top:100%;left:0;display:block;width:100%;text-align:center;z-index:100;}
+.question {font-size:20px;padding:20px 20px 30px 20px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f7f7f7));-webkit-border-radius:8px;line-height:40px;position:relative;}
+.question .qt{width: 80px;}
+.question b {display:inline-block;font-style:normal;-webkit-border-radius:20px;height:40px;width:40px;line-height:40px;text-align:center;font-size:26px;text-shadow:1px 1px 0px #498a4d;background: -webkit-gradient(linear, 0 0, 0 100%, from(#80bb6a), to(#319f57));font-family:"Arial Rounded MT Bold";color:#fff;margin-right:10px;}
+.question .tips {position:absolute;right:15px;bottom:-15px;padding:5px 8px 0;border-radius:8px;background:-webkit-linear-gradient(top, #e9e9e9 0%, #fff 50%);}
+.question .pointer {display:inline-block;margin:0 3px;}
+.question .tips .pin,
+.question .tips .pinx {background:url(../images/btn_tip.png) no-repeat;width:94px;height:35px;line-height:35px;text-align:center;font-size:16px;color:#6e4300;display:inline-block;font-weight:bold;text-decoration:none;}
+.question .tips .disable {background-image:url(../images/btn_tip_dis.png);color:#aeaeae;}
+.question .tips .pop {position:absolute;top:50px;right:0;background:#fcfcf3;border:1px solid #e7e7e7;border-radius:10px;padding:10px 20px;width:280px;font-size:18px;display:none;z-index:1000;}
+.question .tips .pop .hd {background:url(../images/tip_hd.png) 50% 50% no-repeat;text-align:center;font-size:15px;color:#919191;font-weight:bold;}
+.question .tips .pop .bd {word-break:break-all;}
+.options {font-size:18px;line-height:2.4em;}
+ol.options {padding-left:90px;}
+.sender {text-align:center;padding:30px 0 60px;}
+.sender .submit {background:url(../images/btn_submit.png) no-repeat;width:192px;height:62px;text-indent:-999em;border:none;cursor:pointer;}
+.result-right {/*border:2px solid #4e8748;*/padding-bottom:125px;background:url(../images/result_right.png) no-repeat 100% 96% #fff;}
+.result-wrong {/*border:2px solid #e14a1f;*/padding-bottom:125px;background:url(../images/result_wrong.png) no-repeat 100% 96% #fff;}
+/* 连线部分 */
+#draw {overflow:hidden;position:relative;}
+#draw .wrap {position:absolute;top:0;left:0;z-index:20;width:100%;}
+#draw .source {float:left;}
+#draw .target {float:right;}
+#draw .node {text-align:center;background:#fff;}
+#draw .flash {-webkit-animation:flash 1s; -webkit-animation-iteration-count:infinite;}
+#draw canvas {position:absolute;top:0;left:0;z-index:10;opacity:.5;}
+@-webkit-keyframes flash {
+  0% {opacity:1;}
+  50% {opacity:.2;}
+  100% {opacity:1;}
+}
+textarea {width:100%;background:#fafafa;border:1px solid #ddd;color:#666;line-height:30px;-webkit-box-shadow: inset 0 0 5px #ddd;-webkit-border-radius:5px;}
+input[type=text] {border:none;outline:none;margin:0 5px;color:#999;background:transparent;}
+input[type=radio], 
+input[type=checkbox] {display:none;}
+input[type=radio] + label, 
+input[type=checkbox] + label {padding-left:40px;display:inline-block;margin-left: -60px;}
+input[type=radio] + label {background:url(../images/input_radio.png) no-repeat 0 6px;}
+input[type=checkbox] + label {background:url(../images/input_check.png) no-repeat 0 6px;}
+input[type=radio]:checked + label {background:url(../images/input_radioed.png) no-repeat 0 6px;}
+input[type=checkbox]:checked + label {background:url(../images/input_checked.png) no-repeat 0 6px;}
+div[qtype=radio] .right {background-image:url(../images/input_radioed_r.png) !important;}
+div[qtype=checkbox] .right {background-image:url(../images/input_checked_r.png) !important;}
+
+
+.options_sub {font-size:18px;line-height:2.4em;}
+ol.options_sub {padding-left:40px;}

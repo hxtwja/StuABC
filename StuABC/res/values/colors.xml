@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textcolor">#197395</color>
+    <color name="black">#000000</color>
+    <color name="percentfront">#087395</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#65a0d1</color>
+    <color name="transparent">#9000</color>
+    <color name="web">#f5862b</color>
+    <color name="grade">#006738</color>
+    <color name="chengse">#f5862b</color>
+    <color name="green_up">#F2F5D4</color>
+    <color name="green_down">#E5EFCA</color>
+    <color name="bar_gray">#e2e2e2</color>
+    <!-- <color name="transparent">#00ffffff</color> -->
+    <color name="transparent_background">#50000000</color>
+    <color name="color1">#006837</color>
+    <color name="color2">#009344</color>
+    <color name="knowledge_count_color">#276a37</color>
+    <color name="mycolor">#00f8d7a4</color>
+    <color name="mycolorn">#f8d7a4</color>
+    <color name="rubercolor">#ffd7a6</color>
+    <color name="main_right_info">#6d6e70</color>
+
+</resources>
