@@ -26,8 +26,9 @@ import android.widget.Toast;
 
 /**
  * @author
- * 
+ *
  */
+
 public class MainActivity extends FragmentActivity implements
 		UpdatePointsNotifier,RRGScreenListener {
 
